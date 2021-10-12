@@ -11,6 +11,7 @@ export default function Form(props) {
                 <input 
                     type="text"
                     name="name"
+                    values={values.name}
                     onChange={change}
                 />
                 </label> <br/> <br/>
@@ -18,6 +19,7 @@ export default function Form(props) {
                     <input 
                         type="email"
                         name="email"
+                        values={values.email}
                         onChange={change}
                     />
                 </label> <br/> <br/>
